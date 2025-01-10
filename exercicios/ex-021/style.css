@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: forestgreen;
+    margin: 0px;
+}
+header {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    background-color: steelblue;
+    padding-left: 1px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
+}
+footer {
+    background-color: honeydew;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+article {
+
+}
+nav {
+    background-color: seashell;
+    background-size: contain;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
