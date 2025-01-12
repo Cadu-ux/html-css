@@ -16,6 +16,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Mantém o conteúdo alinhado ao topo */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 main p {
     margin: 15px 0px;
