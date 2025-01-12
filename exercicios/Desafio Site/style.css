@@ -3,9 +3,7 @@
     font-family:'Android';
     src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
 }
-    * {
-
-    }
+    
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
