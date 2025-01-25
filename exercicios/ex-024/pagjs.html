@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            background-color: rgba(0, 229, 153, 0.923);
+        }
+    </style>
+</head>
+<body><a href="#" onclick="clicou()">Clique aqui</a>
+    <div id="saida"></div>
+
+
+
+    <script>
+        /**
+         * Função que é executada quando o usuário clica no link.
+         * Ela é responsável por alterar a div de id "saida" e mostrar
+         * uma mensagem diferente.
+         */
+        function clicou() {
+            // Obtém o elemento com o id 'saida'
+            var s = document.getElementById('saida');
+            // Altera o conteúdo HTML da div para uma mensagem de agradecimento
+            s.innerHTML = 'Obrigado por clicar';
+        }
+    </script>
+</body>
+</html>
