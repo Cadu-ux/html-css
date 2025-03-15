@@ -25,9 +25,9 @@ header {
     align-items: center;
 }
 header > h1 {
-    border: 1px dotted black ;
     color: rgb(214, 214, 214);
-    flex: 0 0 200px
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.463);
 }
 header > nav {
     display: flex;
@@ -54,4 +54,10 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
+}
+main > p {
+    color: rgb(212, 212, 212);
+}
+main > h2 {
+    color: rgb(215, 215, 215);
 }
